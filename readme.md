@@ -354,3 +354,58 @@ type(scope): <emoji> <description>
 - Add tests for new features
 - Update documentation
 - Use `dotnet format` and `dotnet csharpier .` before committing
+
+## Project Submission Instructions
+
+As a developer implementing this project, follow these steps to submit your work:
+
+### Initial Setup
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd <repository-name>
+   ```
+
+2. Create a new branch for your implementation:
+   ```bash
+   git checkout -b feat/customer-management-implementation
+   ```
+
+### Development Process
+
+1. Implement the project following all the requirements specified in this document.
+
+2. Make regular commits following the commit convention documented in the Contribution Guidelines:
+   ```bash
+   git add .
+   git commit -m "feat: 🚀 implement customer aggregate"
+   ```
+
+3. Push your changes to the remote repository:
+   ```bash
+   git push origin feat/customer-management-implementation
+   ```
+
+### Submission
+
+1. Once implementation is complete, create a pull request to the main branch:
+   - Go to the repository on GitHub
+   - Click "Pull requests" > "New pull request"
+   - Set base branch to `main` and compare branch to your `feat/customer-management-implementation`
+   - Click "Create pull request"
+
+2. In the pull request description:
+   - Provide a summary of the implemented features
+   - Mention any design decisions or trade-offs made
+   - List any pending items or known issues
+
+3. Add `pouryanoufallah96` as a reviewer for your pull request
+
+4. Be prepared to address any feedback or requested changes from the reviewer
+
+### Review Process
+
+1. The reviewer will assess your implementation against the requirements and acceptance criteria.
+2. You may need to make additional changes based on feedback.
+3. Once approved, your implementation will be merged into the main branch.
