@@ -1,0 +1,6 @@
+@FRD_HostAddress = http://localhost:5120
+
+GET {{FRD_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
